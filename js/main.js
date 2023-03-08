@@ -15,10 +15,6 @@ let PageSize = 6;
 let activePage = 1;
 let allProductsCount = 0;
 
-// if (!token) {
-//   window.location.href = '../pages/admin.html'
-// }
-
 elSearch.addEventListener("input", () => {
    elTopList.textContent = null;
    const value = elSearch.value;
