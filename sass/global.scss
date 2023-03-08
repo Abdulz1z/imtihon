@@ -1,0 +1,76 @@
+/** @format */
+
+ul {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none !important;
+   color: black !important;
+   padding: 5px 10px;
+
+   &:hover {
+      background: rgb(198, 193, 193) !important;
+      border-radius: 10%;
+   }
+}
+
+input {
+   box-shadow: none !important;
+}
+
+#searchBtn {
+   align-items: center;
+   padding: 0px 5px;
+   max-width: 90px;
+   width: 90%;
+   height: 41px;
+   border: none;
+}
+.carousel-inner {
+   img {
+      max-height: 370px;
+      object-fit: cover;
+   }
+   .carousel-control-prev,
+   .carousel-control-next {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      color: blue;
+      background-color: blue;
+   }
+}
+
+.background-color {
+   background-color: #f8fafd;
+}
+
+#booksLists {
+   li {
+      #bookCard {
+         #bookTitle {
+            max-height: 40px;
+            overflow: hidden;
+         }
+      }
+      max-width: 270px;
+      .secondChild {
+         background-color: #f8fafd;
+
+         .img-card {
+            background-color: #b6c6dd;
+
+            img {
+               max-width: 190px;
+               width: 100%;
+               max-height: 190px;
+            }
+         }
+      }
+   }
+}
+
+#booksBackground {
+   background-color: #f8fafd;
+}
